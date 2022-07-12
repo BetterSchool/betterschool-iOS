@@ -17,29 +17,22 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
+            SchoolView()
+                .tabItem {
+                    Label("School", systemImage: "book")
                 }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person")
                 }
-            }
-            Text("Select an item")
         }
+        
+        
     }
 
     private func addItem() {

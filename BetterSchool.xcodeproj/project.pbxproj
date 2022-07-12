@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC351A15286EFBA4007B2AAA /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351A14286EFBA4007B2AAA /* SubmitView.swift */; };
+		BC351A17286F048E007B2AAA /* HomeWorkPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC351A16286F048E007B2AAA /* HomeWorkPreviewView.swift */; };
 		BCF3DA6A2865EE5900A38A5D /* BetterSchoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DA692865EE5900A38A5D /* BetterSchoolApp.swift */; };
 		BCF3DA6C2865EE5900A38A5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DA6B2865EE5900A38A5D /* ContentView.swift */; };
 		BCF3DA6E2865EE5A00A38A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF3DA6D2865EE5A00A38A5D /* Assets.xcassets */; };
@@ -16,6 +18,12 @@
 		BCF3DA812865EE5A00A38A5D /* BetterSchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DA802865EE5A00A38A5D /* BetterSchoolTests.swift */; };
 		BCF3DA8B2865EE5A00A38A5D /* BetterSchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DA8A2865EE5A00A38A5D /* BetterSchoolUITests.swift */; };
 		BCF3DA8D2865EE5A00A38A5D /* BetterSchoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DA8C2865EE5A00A38A5D /* BetterSchoolUITestsLaunchTests.swift */; };
+		BCF3DA9D2865F96400A38A5D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DA9C2865F96400A38A5D /* HomeView.swift */; };
+		BCF3DA9F2865FA8900A38A5D /* SchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DA9E2865FA8900A38A5D /* SchoolView.swift */; };
+		BCF3DAA12865FC8B00A38A5D /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DAA02865FC8B00A38A5D /* ContactView.swift */; };
+		BCF3DAA3286688E700A38A5D /* SchoolInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DAA2286688E700A38A5D /* SchoolInfoView.swift */; };
+		BCF3DAA528668D8500A38A5D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DAA428668D8500A38A5D /* ProfileView.swift */; };
+		BCF3DAA72866910600A38A5D /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3DAA62866910600A38A5D /* ProfileInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC351A14286EFBA4007B2AAA /* SubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitView.swift; sourceTree = "<group>"; };
+		BC351A16286F048E007B2AAA /* HomeWorkPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkPreviewView.swift; sourceTree = "<group>"; };
 		BCF3DA662865EE5900A38A5D /* BetterSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF3DA692865EE5900A38A5D /* BetterSchoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSchoolApp.swift; sourceTree = "<group>"; };
 		BCF3DA6B2865EE5900A38A5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		BCF3DA862865EE5A00A38A5D /* BetterSchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF3DA8A2865EE5A00A38A5D /* BetterSchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSchoolUITests.swift; sourceTree = "<group>"; };
 		BCF3DA8C2865EE5A00A38A5D /* BetterSchoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSchoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCF3DA9C2865F96400A38A5D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BCF3DA9E2865FA8900A38A5D /* SchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView.swift; sourceTree = "<group>"; };
+		BCF3DAA02865FC8B00A38A5D /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		BCF3DAA2286688E700A38A5D /* SchoolInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInfoView.swift; sourceTree = "<group>"; };
+		BCF3DAA428668D8500A38A5D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BCF3DAA62866910600A38A5D /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		BCF3DA682865EE5900A38A5D /* BetterSchool */ = {
 			isa = PBXGroup;
 			children = (
+				BCF3DA992865F94300A38A5D /* View */,
 				BCF3DA692865EE5900A38A5D /* BetterSchoolApp.swift */,
 				BCF3DA6B2865EE5900A38A5D /* ContentView.swift */,
 				BCF3DA6D2865EE5A00A38A5D /* Assets.xcassets */,
@@ -133,6 +150,21 @@
 				BCF3DA8C2865EE5A00A38A5D /* BetterSchoolUITestsLaunchTests.swift */,
 			);
 			path = BetterSchoolUITests;
+			sourceTree = "<group>";
+		};
+		BCF3DA992865F94300A38A5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCF3DA9C2865F96400A38A5D /* HomeView.swift */,
+				BCF3DA9E2865FA8900A38A5D /* SchoolView.swift */,
+				BCF3DAA02865FC8B00A38A5D /* ContactView.swift */,
+				BCF3DAA2286688E700A38A5D /* SchoolInfoView.swift */,
+				BCF3DAA428668D8500A38A5D /* ProfileView.swift */,
+				BCF3DAA62866910600A38A5D /* ProfileInfoView.swift */,
+				BC351A14286EFBA4007B2AAA /* SubmitView.swift */,
+				BC351A16286F048E007B2AAA /* HomeWorkPreviewView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF3DA9F2865FA8900A38A5D /* SchoolView.swift in Sources */,
+				BCF3DAA528668D8500A38A5D /* ProfileView.swift in Sources */,
 				BCF3DA732865EE5A00A38A5D /* Persistence.swift in Sources */,
+				BCF3DAA12865FC8B00A38A5D /* ContactView.swift in Sources */,
+				BCF3DAA72866910600A38A5D /* ProfileInfoView.swift in Sources */,
+				BC351A17286F048E007B2AAA /* HomeWorkPreviewView.swift in Sources */,
 				BCF3DA6C2865EE5900A38A5D /* ContentView.swift in Sources */,
 				BCF3DA6A2865EE5900A38A5D /* BetterSchoolApp.swift in Sources */,
+				BCF3DA9D2865F96400A38A5D /* HomeView.swift in Sources */,
+				BCF3DAA3286688E700A38A5D /* SchoolInfoView.swift in Sources */,
 				BCF3DA762865EE5A00A38A5D /* BetterSchool.xcdatamodeld in Sources */,
+				BC351A15286EFBA4007B2AAA /* SubmitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
